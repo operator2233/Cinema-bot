@@ -8,10 +8,7 @@ from telebot import types
 # НАСТРОЙКИ
 # =========================
 
-TOKEN = os.getenv("8885937936:AAGKbpOWGoiCgp_518spTLhCEW-5_iDDsnY")
-
-if not TOKEN:
-    raise RuntimeError("BOT_TOKEN не найден")
+TOKEN = "8885937936:AAGKbpOWGoiCgp_518spTLhCEW-5_iDDsnY"
 
 bot = telebot.TeleBot(TOKEN)
 
