@@ -1224,5 +1224,6 @@ print("================================")
 
 bot.infinity_polling(
     timeout=30,
-    long_polling_timeout=30
-        )
+    long_polling_timeout=30,
+    allowed_updates=["message", "callback_query"]
+)
