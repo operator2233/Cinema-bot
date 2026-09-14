@@ -8,8 +8,8 @@ from telebot import types
 # НАСТРОЙКИ
 # ==================================================
 
-BOT_TOKEN = os.getenv("8885937936:AAGKbpOWGoiCgp_518spTLhCEW-5_iDDsnY")
-ADMIN_ID = os.getenv("@Operator4040")
+BOT_TOKEN = "8885937936:AAGKbpOWGoiCgp_518spTLhCEW-5_iDDsnY"
+ADMIN_ID = "@Operator4040"
 
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN не найден")
