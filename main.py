@@ -15,7 +15,7 @@ BOT_TOKEN = "8885937936:AAGKbpOWGoiCgp_518spTLhCEW-5_iDDsnY"
 
 # ID оператора.
 # ВСТАВЬ СЮДА СВОЙ TELEGRAM ID.
-ADMIN_ID = @Operator4040
+ADMIN_ID = 8758604868
 
 
 if not BOT_TOKEN:
